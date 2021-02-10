@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Div, span, id and class</title>
+    <!-- css only used to show div/span, css should always be in seporate file -->
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .enhance{
+          color: yellow;
+          background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-header">
+      <h1>My site</h1>
+      <p>a site about me</p>
+    </div>
+
+    <ul id="main-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+      <h3>About</h3>
+      <!-- span is inline div is block -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+        reiciendis velit <span class="enhance">necessitatibus quis doloremque facilis quidem sed nulla
+        dicta aliquid ab perspiciatis eos inventore veritatis nobis odit
+        exercitationem earum commodi</span> quod ratione tempora vitae, obcaecati
+        possimus. Quam voluptates vel distinctio?
+      </p>
+    </div>
+    <div id="contact" class="card">
+      <h3>Contact Me</h3>
+      <ul>
+        <li>Address: 50 main st, Boston Ma</li>
+        <li>Phone: (555) 555-5555</li>
+        <li>Email: me@bigboom.com</li>
+      </ul>
+    </div>
+    <div id="footer">
+      <p>Copyright &copy; 2019</p>
+    </div>
+  </body>
+</html>
